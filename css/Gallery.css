@@ -1,0 +1,29 @@
+div.Gallery{
+    width: 100%;
+    padding: 10px;
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+}
+div.Gallery>*{
+    width: 600px;
+    height:300px;
+    margin-left: 299px;
+    background-size: cover;
+    display: inline-block;
+}
+div.Gallery>div.picture1-1{
+    background-image: url('../images/gallery2-1.jpg');
+    margin-left: 0;
+}
+div.Gallery>div.picture1-2{
+    background-image: url('../images/gallery2-2.webp');
+}
+div.Gallery>div.picture1-3{
+    background-image: url('../images/gallery2-3.jpg');
+    margin-left: 0;
+    margin-top: 10px;
+}
+div.Gallery>div.picture1-4{
+    background-image: url('../images/gallery2-4.jpg');
+    margin-top: 10px;
+}
